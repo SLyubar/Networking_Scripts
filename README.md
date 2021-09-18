@@ -1,3 +1,3 @@
 # Networking_Scripts
-My first programming lab for computer networking class.
-Uses conditional logic to provide answers based on the value of the question variable.
+My second programming lab for computer networking class.
+Uses socket programming to communicate over TCP between a connection socket and render an HTML file from a URL.
