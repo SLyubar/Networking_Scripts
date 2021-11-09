@@ -136,7 +136,4 @@ def ping(host, timeout=1):
     
 
 if __name__ == '__main__':
-    # ping("google.co.il")
-    # ping("127.0.0.1")
-    ping("74.6.143.26")
-    # ping("172.217.15.67")
+    ping("google.co.il")
