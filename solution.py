@@ -136,7 +136,6 @@ def get_route(hostname):
                     #You should add your responses to your lists here
                     rtt = str(int((timeReceived - timeSent) * 1000))
                     tracelist1.append([ttl, rtt + "ms", addr[0], hostname])
-                    print(tracelist1)
                     #Fill in end
                 elif types == 3:
                     bytes = struct.calcsize("d")
@@ -145,7 +144,6 @@ def get_route(hostname):
                     #You should add your responses to your lists here
                     rtt = str(int((timeReceived - timeSent) * 1000))
                     tracelist1.append([ttl, rtt + "ms", addr[0], hostname])
-                    print(tracelist1)
                     #Fill in end
                 elif types == 0:
                     bytes = struct.calcsize("d")
