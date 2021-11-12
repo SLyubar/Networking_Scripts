@@ -154,7 +154,7 @@ def get_route(hostname):
                     #You should add your responses to your lists here and return your list if your destination IP is met
                     rtt = str(int((timeReceived - timeSent) * 1000))
                     tracelist1.append([ttl, rtt + "ms", addr[0], dest])
-                    return tracelist2.append(tracelist1)
+                    tracelist2.append(tracelist1)
                     #Fill in end
                 else:
                     #Fill in start
