@@ -81,7 +81,6 @@ def get_route(hostname):
     for ttl in range(1,MAX_HOPS):
         for tries in range(TRIES):
             destAddr = gethostbyname(hostname)
-            # destAddr = getfqdn(hostname)
 
             #Fill in start
             # Make a raw socket named mySocket
@@ -123,7 +122,7 @@ def get_route(hostname):
                 # #Fill in end
                 try: #try to fetch the hostname
                     #Fill in start
-                    dest = getfqdn(destAddr)
+                    dest = destAddr
                     #Fill in end
                 except herror:   #if the host does not provide a hostname
                     #Fill in start
