@@ -122,8 +122,8 @@ def get_route(hostname):
                 # #Fill in end
                 try: #try to fetch the hostname
                     #Fill in start
-                    # dest = gethostbyaddr(addr[0])[0]
-                    dest = gethostbyaddr(destAddr)[0]
+                    dest = gethostbyaddr(addr[0])[0]
+                    # dest = gethostbyaddr(destAddr)[0]
                     # dest = getfqdn(destAddr)
                     # print(dest)
                     #Fill in end
